@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   color: #505962;
 }
-
+ul {
+  list-style-type: none;
+}
 .service-wrap {
   z-index: -999 !important;
 }
