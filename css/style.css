@@ -3,7 +3,15 @@ body {
   color: #505962;
 }
 ul {
-  list-style-type: none;
+  max-width: 15rem;
+  margin: 0;
+}
+ul li a i {
+  font-size: x-large;
+  color: white;
+}
+ul li a i:hover {
+  color: blue;
 }
 .service-wrap {
   z-index: -999 !important;
